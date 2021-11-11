@@ -10,8 +10,8 @@ while program not in ["1", "2"]:
 
 if program == "1":
   n = int(input("Enter a number: "))
-  print(part1.sumofsquares(n))
+  print("The sum of the first " + str(n) + " squares is " + str(part1.sumofsquares(n)))
 
 elif program == "2":
   s = int(input("Enter diamond size: "))
-  part2.diamond(s)
+  print(part2.diamond(s))
